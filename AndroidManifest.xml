@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mp3player"
+    android:versionCode="1"
+    android:versionName="1.0" 
+    android:launchMode="singleInstance">
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon_a"
+        android:label="@string/appname"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.mp3player.MainActivity"
+            android:label="@string/appname" >
+            
+        </activity>
+        <activity
+            android:name="com.example.mp3player.PlayActivity"
+            android:label="@string/title_activity_play" >
+            <intent-filter>
+                <action android:name="com.example.mp3player.PLAYACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.mp3player.GoMad"
+            android:label="@string/title_activity_our_logo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

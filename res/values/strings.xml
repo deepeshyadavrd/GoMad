@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Go Mad</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Stop">Stop</string>
+    <string name="Stop1">Stop1</string>
+    <string name="title_activity_play">PlayActivity</string>
+    <string name="PrevSong">Previous Song</string>
+    <string name="NextSong">Next Song</string>
+    <string name="PlayPause">Play/Pause</string>
+    <string name="PlayList1">PlayList1</string>
+    <string name="title_activity_our_logo">OurLogo</string>
+    <string name="tap">Tap here to get Started !</string>
+    <string name="Switch">Switch</string>
+    <string name="appname">Go Mad</string>
+
+</resources>
